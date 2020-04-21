@@ -90,12 +90,15 @@
                ></v-select>
                <v-select
                   :items="items5"
+                  v-model="search"
                   label="All sitemaps"
                   solo
+                  clearable
                   class="ml-4 first-menu-btn "
                ></v-select>
             </v-card>
             <!-- Api table -->
+
             <v-data-table
                v-model="selected"
                :headers="headers"
@@ -162,8 +165,7 @@ export default {
       items1: new Date(),
       noErrors: "Couldn't fetch",
       menu: false,
-      search: "",
-
+      search: null,
       singleSelect: false,
       items0: ["Hello", "friend"],
       label: ["fdsf", "fdsf"],
@@ -174,7 +176,7 @@ export default {
       selected: [],
       headers: [
          {
-            text: "Sitemap (5) ",
+            text: "Sitemap",
             align: "start",
             value: "path",
          },
@@ -194,7 +196,6 @@ export default {
             .then((res) => {
                this.result = res.data.result;
                this.items = res.data.result.sitemap;
-               console.log(res.data.result.sitemap);
             });
          return items;
       } catch (error) {
@@ -203,14 +204,14 @@ export default {
    },
    computed: {
       filteredtable() {
-         let error = this.items;
-         if (this.error.length) {
-            items = items.filter(
+         if (this.search) {
+            this.items.filter(
                (e) =>
-                  this.errors.filter((val) => e.errors.indexOf(val) !== 1)
-                     .length > 0
+                  items.filter((val) => e.items.indexOf(val) !== 1).length > 0
             );
-            return error;
+            console.log(items);
+
+            return items;
          }
       },
    },
