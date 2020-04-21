@@ -1,0 +1,20 @@
+.mdi-menu-down::before {
+   content: "\F0140" !important;
+}
+
+.delete {
+   font-size: 20px !important;
+}
+.delete:hover {
+   color: #fb6868;
+}
+
+.mdi-checkbox-marked::before {
+   content: "\F0132";
+
+   color: #0288d1;
+}
+
+.mdi-arrow-up::before {
+   content: "" !important;
+}
