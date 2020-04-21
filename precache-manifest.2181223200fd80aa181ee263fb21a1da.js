@@ -4,8 +4,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-pages-pages/css/about~31ecd969.23eb5e1e.css"
   },
   {
-    "revision": "2a8256c41afd476cd675",
-    "url": "/vue-pages-pages/css/app~d0ae3f07.07eedbf8.css"
+    "revision": "a769e95360d980bd8951",
+    "url": "/vue-pages-pages/css/app~d0ae3f07.99a3b210.css"
   },
   {
     "revision": "34c34d808c277d98c649",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-pages-pages/css/chunk-vendors~dde583c9.761210ac.css"
   },
   {
-    "revision": "4b51493797ff88f8f05b3e8704b76e56",
+    "revision": "ab90b27b77ce82e2c1a0a3f39593ab60",
     "url": "/vue-pages-pages/index.html"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-pages-pages/js/about~31ecd969.46dd0fc1.js"
   },
   {
-    "revision": "2a8256c41afd476cd675",
-    "url": "/vue-pages-pages/js/app~d0ae3f07.408b72aa.js"
+    "revision": "a769e95360d980bd8951",
+    "url": "/vue-pages-pages/js/app~d0ae3f07.49995801.js"
   },
   {
     "revision": "9809513d2043e8988b5f",
@@ -120,7 +120,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-pages-pages/scss/btn.scss"
   },
   {
-    "revision": "fb1ece6733bc42f46ac1f41901b24c14",
+    "revision": "96883a184e35135e54e5ee432f063331",
     "url": "/vue-pages-pages/scss/icons.scss"
   },
   {
@@ -128,11 +128,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-pages-pages/scss/main.scss"
   },
   {
-    "revision": "1892d6fd30df70bceec36e2ad470050c",
+    "revision": "44330236ef578c81c4773626b8d2c624",
     "url": "/vue-pages-pages/scss/other.scss"
   },
   {
-    "revision": "bbb0c91df83c8e9055e744aaac7a6249",
+    "revision": "e8df6fdba485420cd6555cb00c0b568f",
     "url": "/vue-pages-pages/scss/typography.scss"
   },
   {

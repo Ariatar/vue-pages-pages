@@ -72,7 +72,15 @@ table {
 .v-data-footer {
    display: none;
 }
-
+.v-select__selections:before {
+   content: "";
+   height: 100%;
+   width: 1px;
+   /* color: red; */
+   left: 110px;
+   position: absolute;
+   background-color: rgb(201, 186, 186);
+}
 td {
    height: 71px !important;
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vue-pages-pages/precache-manifest.33d0e91af4a47a37d86d4fbc0edc7fff.js"
+  "/vue-pages-pages/precache-manifest.2181223200fd80aa181ee263fb21a1da.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vuetable"});
